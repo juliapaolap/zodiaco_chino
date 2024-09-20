@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Zodiaco Chino</title>
+</head>
+<body>
+    <header>
+        <h1>DESCUBRE TU SIGNO DEL ZODIACO CHINO</h1>
+    </header>
+
+    <section>
+        <form id="formulario" name="formulario" action="" method="get"> <!-- Formulario visible ahora -->
+            <label class="añoForm">Año de nacimiento</label>
+            <input type="number" id="nacimiento" placeholder="Introduzca su año de nacimiento" required>
+        </form>
+
+        <div>
+            <button id="personalizar" onclick="calcularSigno()">SABER YA</button>
+        </div>
+        
+        <div id="resto" class="resultado">Resto:</div>
+        <div id="signo" class="resultado">Signo:</div>
+        <div id="imagen" class="resultado">Imagen:</div>
+    </section>
+    
+    <footer>
+        <h4>Julia Paramo - 19 de septiembre 2024</h4>
+    </footer>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
